@@ -20,16 +20,20 @@ function isOdd(num) {
 isOdd(12)
 isOdd(11)
 
-<<<<<<< HEAD
 function add(num1, num2) {
   console.log(`num1=${num1} + num2=${num2} = ${num1 + num2}`)
 }
 
 add(10, 20)
-=======
+
 function subtract(num1, num2) {
   console.log(`num1=${num1} - num2=${num2} = ${num1 - num2}`)
 }
 
 subtract(10, 20)
->>>>>>> subtract-fun
+
+function multiply(num1, num2) {
+  console.log(`num1=${num1} * num2=${num2} = ${num1 * num2}`)
+}
+
+multiply(10, 20)
