@@ -19,3 +19,9 @@ function isOdd(num) {
 
 isOdd(12)
 isOdd(11)
+
+function add(num1, num2) {
+  console.log(`num1=${num1} + num2=${num2} = ${num1 + num2}`)
+}
+
+add(10, 20)
