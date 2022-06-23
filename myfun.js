@@ -37,3 +37,9 @@ function multiply(num1, num2) {
 }
 
 multiply(10, 20)
+
+function divide(num1, num2) {
+  console.log(`num1=${num1} / num2=${num2} = ${num1 / num2}`)
+}
+
+divide(10, 20)
